@@ -11,4 +11,11 @@ This competition challenges participants to predict fundamental polymer properti
 
 This competition focuses on building models that can forecast key polymer properties—density, thermal conductivity (Tc), glass transition temperature (Tg), radius of gyration (Rg), and fractional free volume (FFV)—directly from their chemical structures (SMILES).
 
+## Evaluation
+
+The competition uses a weighted Mean Absolute Error (wMAE) across the five polymer properties as the evaluation metric. A reweighting factor is applied to ensure fairness:
+* Scale normalization: Adjusts for differences in numerical ranges.
+* Inverse square-root scaling: Gives more weight to properties with fewer samples.
+* Weight normalization: Ensures the total weights sum to one.
+
 
