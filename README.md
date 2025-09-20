@@ -32,7 +32,7 @@ The submission file must be a CSV containing predictions for all five polymer pr
 
 Data is available on [link](https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/data).
 
-## Model And External data
+## Model And External Data
 
 ChemBERTa-MLM-dataset: [link](https://huggingface.co/DeepChem/ChemBERTa-77M-MLM/tree/main)<br>
 IBM-TED: [link](https://huggingface.co/ibm-research/materials.selfies-ted)<br>
