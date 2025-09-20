@@ -32,3 +32,15 @@ The submission file must be a CSV containing predictions for all five polymer pr
 
 Data is available on [link](https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/data).
 
+## Model And External data
+
+ChemBERTa-MLM-dataset: [link](https://huggingface.co/DeepChem/ChemBERTa-77M-MLM/tree/main)<br>
+IBM-TED: [link](https://huggingface.co/ibm-research/materials.selfies-ted)<br>
+T-SMILES: [link](https://github.com/juanniwu/t-SMILES.git), [link](https://raw.githubusercontent.com/BiomedSciAI/r-BRICS/refs/heads/main/rBRICS_public.py)
+JCIM_sup_bigsmiles.csv: [link](https://springernature.figshare.com/articles/dataset/dataset_with_glass_transition_temperature/24219958?file=42507037)<br>
+data_tg3.xlsx: [link](https://www.sciencedirect.com/science/article/pii/S2590159123000377#ec0005)<br>
+data_dnst1.xlsx: [link](https://github.com/Duke-MatSci/ChemProps)<br>
+Tc_SMILES.csv: [link](https://www.kaggle.com/datasets/minatoyukinaxlisa/tc-smiles)<br>
+Tg_SMILES_class_pid_polyinfo_median.csv: [link](https://www.kaggle.com/datasets/fridaycode/tg-smiles-pid-polyinfo-class)
+
+
