@@ -18,4 +18,15 @@ The competition uses a weighted Mean Absolute Error (wMAE) across the five polym
 * Inverse square-root scaling: Gives more weight to properties with fewer samples.
 * Weight normalization: Ensures the total weights sum to one.
 
+## Submission
+
+The submission file must be a CSV containing predictions for all five polymer properties. For each id in the test set, you should output one row with the predicted values. The file must include a header and follow this format:
+
+```csv
+   id,Tg,FFV,Tc,Density,Rg
+   2112371,0.0,0.0,0.0,0.0,0.0
+   2021324,0.0,0.0,0.0,0.0,0.0
+   343242,0.0,0.0,0.0,0.0,0.0
+```
+
 
