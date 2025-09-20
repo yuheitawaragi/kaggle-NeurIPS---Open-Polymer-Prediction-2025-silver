@@ -28,5 +28,7 @@ The submission file must be a CSV containing predictions for all five polymer pr
    2021324,0.0,0.0,0.0,0.0,0.0
    343242,0.0,0.0,0.0,0.0,0.0
 ```
+## Data
 
+Data is available on [link](https://www.kaggle.com/competitions/neurips-open-polymer-prediction-2025/data).
 
