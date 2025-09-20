@@ -36,7 +36,7 @@ Data is available on [link](https://www.kaggle.com/competitions/neurips-open-pol
 
 ChemBERTa-MLM-dataset: [link](https://huggingface.co/DeepChem/ChemBERTa-77M-MLM/tree/main)<br>
 IBM-TED: [link](https://huggingface.co/ibm-research/materials.selfies-ted)<br>
-T-SMILES: [link](https://github.com/juanniwu/t-SMILES.git), [link](https://raw.githubusercontent.com/BiomedSciAI/r-BRICS)<br>
+T-SMILES: [link](https://github.com/juanniwu/t-SMILES.git), [link](https://raw.githubusercontent.com/BiomedSciAI)<br>
 JCIM_sup_bigsmiles.csv: [link](https://springernature.figshare.com/articles/dataset/dataset_with_glass_transition_temperature/24219958?file=42507037)<br>
 data_tg3.xlsx: [link](https://www.sciencedirect.com/science/article/pii/S2590159123000377#ec0005)<br>
 data_dnst1.xlsx: [link](https://github.com/Duke-MatSci/ChemProps)<br>
