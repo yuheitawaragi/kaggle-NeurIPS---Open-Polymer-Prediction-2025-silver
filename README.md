@@ -43,4 +43,8 @@ data_dnst1.xlsx: [link](https://github.com/Duke-MatSci/ChemProps)<br>
 Tc_SMILES.csv: [link](https://www.kaggle.com/datasets/minatoyukinaxlisa/tc-smiles)<br>
 Tg_SMILES_class_pid_polyinfo_median.csv: [link](https://www.kaggle.com/datasets/fridaycode/tg-smiles-pid-polyinfo-class)
 
+## Citation
+
+Gang Liu, Jiaxin Xu, Eric Inae, Yihan Zhu, Ying Li, Tengfei Luo, Meng Jiang, Yao Yan, Walter Reade, Sohier Dane, Addison Howard, and María Cruz. NeurIPS - Open Polymer Prediction 2025. https://kaggle.com/competitions/neurips-open-polymer-prediction-2025, 2025. Kaggle.
+
 
