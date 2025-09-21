@@ -53,7 +53,7 @@ These features capture the 3D geometry and shape anisotropy of polymers, which a
 
 ### 5. Selfies-ted embedding features
 
-This project performs feature engineering using the selfies-ted model.
+This project performs feature engineering using the selfies-ted model, a transformer based encoder decoder model for molecular representations using SELFIES.<br>
 The pipeline works as follows:
 * Convert SMILES to SELFIES with preprocessing to ensure valid conversion.
 * Generate TED embeddings using a pretrained selfies-ted model.
