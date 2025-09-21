@@ -33,3 +33,13 @@ It computes descriptors such as:
 
 These features capture polymer architecture and physicochemical properties, which are then used as input for model training.
 
+### 3. 3D Feature Engineering
+
+This project generates 3D molecular conformations from polymer SMILES (using ETKDG + UFF optimization) and computes 3D shape descriptors.
+Extracted features include:
+* Surface area (TPSA, LabuteASA)
+* Principal moments of inertia (PMI1, PMI2, PMI3, PMI ratios)
+* Inertial shape factor
+* Shape descriptors (spherocity, asphericity, eccentricity, radius of gyration)
+
+These features capture the 3D geometry and shape anisotropy of polymers, which are important for predicting physical properties.
