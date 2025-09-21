@@ -49,4 +49,4 @@ These features capture the 3D geometry and shape anisotropy of polymers, which a
 * SMILES strings are encoded using ChemBERTa, a pretrained transformer model for molecules.
 * For each molecule, the CLS token embedding is extracted as a fixed-length vector.
 * Embeddings are scaled and then clustered using:
-  *
+ -
