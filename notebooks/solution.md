@@ -24,3 +24,12 @@ In this project, various feature engineering techniques are applied to polymer S
 
 These steps help improve data quality and expand the dataset for more robust model training.
 
+### 2. Feature Engineering – Polymer Backbone & Sidechain
+
+This project extracts structural features from polymer SMILES by separating backbone and sidechains.
+It computes descriptors such as:
+* Backbone: length, aromatic fraction, rotatable bonds, molecular weight, TPSA, LogP, heteroatom fraction, ring fraction, fraction of rotatable bonds
+* Sidechains: count, mean length, hydrogen bond donors/acceptors, density, attachment density, mass/TPSA/LogP mean, branching degree, maximum length, spacing standard deviation
+
+These features capture polymer architecture and physicochemical properties, which are then used as input for model training.
+
