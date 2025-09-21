@@ -48,5 +48,5 @@ These features capture the 3D geometry and shape anisotropy of polymers, which a
 
 * SMILES strings are encoded using ChemBERTa, a pretrained transformer model for molecules.
 * For each molecule, the CLS token embedding is extracted as a fixed-length vector.
-* Embeddings are scaled and then clustered using:
- -
+* Embeddings are scaled and then clustered using KMeans (20 clusters) or HDBSCAN (two sets of hyperparameters)
+* The resulting cluster labels are added as categorical features (bert_cluster, hdbscan_cluster_1, hdbscan_cluster_2) for downstream prediction.
