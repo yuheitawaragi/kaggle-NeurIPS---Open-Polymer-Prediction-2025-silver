@@ -14,3 +14,4 @@ The target properties are:
 # Approach
 In this project, various feature engineering techniques are applied to polymer SMILES, and LGBM model is used for training and inference to predict different polymer properties.
 
+1. preprocessing
