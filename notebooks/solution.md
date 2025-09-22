@@ -62,3 +62,9 @@ The pipeline works as follows:
 
 These additional features help capture structural similarities in polymers and are used later in the machine learning models for property prediction.
 
+### 6. EState fingerprint features
+
+* Generate EState fingerprints (79-dimensional) from SMILES.
+* Select a subset of informative bits.
+* Apply scaling and clustering (KMeans with 20 clusters, HDBSCAN with two parameter sets).
+* Keep NaN values for invalid SMILES to preserve dataset alignment.
