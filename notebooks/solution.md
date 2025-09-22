@@ -74,4 +74,6 @@ These additional features help capture structural similarities in polymers and a
 Compute molecular fingerprints (MACCS, Torsion, AtomPair) from SMILES.
 
 * MACCS Fingerprints: 166 predefined structural patterns capturing common substructures.
+* Torsion Fingerprints: Encodes torsional angle patterns of molecular fragments.
+* AtomPair Fingerprints: Encodes distances and connectivity between pairs of atoms.
  
