@@ -70,7 +70,8 @@ These additional features help capture structural similarities in polymers and a
 * Keep NaN values for invalid SMILES to preserve dataset alignment.
 
  ### 7. molecular fingerprints (MACCS, Torsion, AtomPair) features
+ 
+Compute molecular fingerprints (MACCS, Torsion, AtomPair) from SMILES.
 
-* Compute molecular fingerprints (MACCS, Torsion, AtomPair) from SMILES.<br>
- * MACCS Fingerprints: 166 predefined structural patterns capturing common substructures.
+* MACCS Fingerprints: 166 predefined structural patterns capturing common substructures.
  
