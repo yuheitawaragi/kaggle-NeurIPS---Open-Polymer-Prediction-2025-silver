@@ -83,5 +83,10 @@ Preserve NaN values for invalid SMILES to maintain dataset alignment.
 ### 8. Various descriptors features
 Compute standard RDKit descriptors, selected Mordred descriptors (AMW, TIC2, naRing, MPC3), and graph-based features (e.g., diameter, centralities, ring counts, heteroatom ratio). Invalid SMILES are preserved as NaN to avoid dropping data.
 
+### 9. T-SMILES feature engineering
+For each SMILES string, T-SMILES representations are computed using multiple fragmentation algorithms (e.g., Vanilla, BRICS, MMPA, Scaffold, etc.) and three T-SMILES types (TSSA/TSDY, TSID, TSIS).<br>
+Each string is tokenized into characters and embedded with a Word2Vec model trained on valid SMILES.<br>
+The embeddings are then clustered using KMeans, with invalid or empty SMILES preserved as NaN.
+
 
  
