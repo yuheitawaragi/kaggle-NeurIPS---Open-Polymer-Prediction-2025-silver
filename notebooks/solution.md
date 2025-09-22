@@ -76,4 +76,8 @@ Compute molecular fingerprints (MACCS, Torsion, AtomPair) from SMILES.
 * MACCS Fingerprints: 166 predefined structural patterns capturing common substructures.
 * Torsion Fingerprints: Encodes torsional angle patterns of molecular fragments.
 * AtomPair Fingerprints: Encodes distances and connectivity between pairs of atoms.
+
+Apply scaling and clustering (KMeans with 20 clusters, HDBSCAN with two parameter sets).<br>
+
+Preserve NaN values for invalid SMILES to maintain dataset alignment.
  
