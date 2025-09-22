@@ -69,7 +69,7 @@ These additional features help capture structural similarities in polymers and a
 * Apply scaling and clustering (KMeans with 20 clusters, HDBSCAN with two parameter sets).
 * Keep NaN values for invalid SMILES to preserve dataset alignment.
 
- ### 7. molecular fingerprints (MACCS, Torsion, AtomPair) features
+### 7. Molecular fingerprints (MACCS, Torsion, AtomPair) features
  
 Compute molecular fingerprints (MACCS, Torsion, AtomPair) from SMILES.
 
@@ -79,4 +79,9 @@ Compute molecular fingerprints (MACCS, Torsion, AtomPair) from SMILES.
 
 Apply scaling and clustering (KMeans with 20 clusters, HDBSCAN with two parameter sets).<br>
 Preserve NaN values for invalid SMILES to maintain dataset alignment.
+
+### 8. Various descriptors features
+Compute standard RDKit descriptors, selected Mordred descriptors (AMW, TIC2, naRing, MPC3), and graph-based features (e.g., diameter, centralities, ring counts, heteroatom ratio). Invalid SMILES are preserved as NaN to avoid dropping data.
+
+
  
