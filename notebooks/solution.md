@@ -68,3 +68,9 @@ These additional features help capture structural similarities in polymers and a
 * Select a subset of informative bits.
 * Apply scaling and clustering (KMeans with 20 clusters, HDBSCAN with two parameter sets).
 * Keep NaN values for invalid SMILES to preserve dataset alignment.
+
+ ### 7. molecular fingerprints (MACCS, Torsion, AtomPair) features
+
+* Compute molecular fingerprints (MACCS, Torsion, AtomPair) from SMILES.<br>
+ * MACCS Fingerprints: 166 predefined structural patterns capturing common substructures.
+ 
