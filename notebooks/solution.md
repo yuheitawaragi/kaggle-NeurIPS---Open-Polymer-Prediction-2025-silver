@@ -99,7 +99,8 @@ Steps:
 * Define MAE metric for evaluation.
 * Set LightGBM parameters and specify categorical features.
 * Sequential training and prediction (Tc → FFV → Rg → Density → Tg)
-* 
+* K-Fold cross-validation is used to obtain out-of-fold predictions for training and averaged predictions for the test set.
+* Final predictions are stored in both training and test dataframes, with previously known values preserved.
 
 
  
